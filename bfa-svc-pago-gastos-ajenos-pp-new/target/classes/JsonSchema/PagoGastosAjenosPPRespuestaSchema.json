@@ -1,0 +1,122 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Respuesta Pago de gastos ajenos",
+  "type": "object",
+  "properties": {
+     "codigo": {
+     "type": "number"
+    },
+     "descripcion": {
+     "type": "String"
+    },
+     "nomCliente": {
+     "type": "String"
+    },
+     "codCliente": {
+     "type": "string"
+    },
+     "duiCliente": {
+     "type": "string"
+    },
+    "expedicionDui": {
+     "type": "string"
+    },
+    "fechaExpedicion": {
+     "type": "number"
+    },
+     "nomCajero": {
+     "type": "string"
+    },
+     "nomOficinaTran": {
+     "type": "string"
+    },
+     "codPantalla": {
+     "type": "string"
+    },
+    "pnoGasto1": {
+     "type": "string"
+    },
+     "pnoGasto2": {
+     "type": "string"
+    },
+     "pnoGasto3": {
+     "type": "string"
+    },
+     "pnoGasto4": {
+     "type": "string"
+    },
+     "pnoGasto5": {
+     "type": "string"
+    },
+     "fechaSistema": {
+     "type": "number"
+    },
+     "fechaReal": {
+     "type": "number"
+    },
+     "fechaRelativa": {
+     "type": "number"
+    },
+     "horaSistema": {
+     "type": "number"
+    },    
+	 "numTran": {
+	 "type": "number"
+	},
+	"numDocumentoTran": {
+	"type": "number"
+	},
+		"cheques": {
+			"type": [
+				"array",
+				"null"
+			],
+			"items": {
+				"$ref": "#/definitions/listCheque"
+			}
+		}
+	},
+	"definitions": {
+		"listCheque": {
+			"type": "object",
+			"properties": {
+				"numCheque": {
+					"type": "number"
+				},
+				"cuentaCheque": {
+					"type": "string"
+				},
+				"codBancoCheque": {
+					"type": "number"
+				},
+				"valorCheque": {
+					"type": "number"
+				},
+				"tipCheque": {
+					"type": "number"
+				},
+				"codPlazaCheque": {
+					"type": "number"
+				},
+				"numOperInternacional": {
+					"type": "number"
+				},
+				"autMaxDiasCheque": {
+					"type": "number"
+				},
+				"numAutorizacion": {
+					"type": "number"
+				},
+				"codTran": {
+					"type": "number"
+				},
+				"codPantalla": {
+					"type": "string"
+				},
+				"codCausal": {
+					"type": "number"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,9 @@
+/home/cristopher/eclipse-workspace/bfa-deposito-mixto-new/src/main/java/sv/gob/bfa/deposito/mixto/cuentaahorro/ruta/DepositoMixtoCuentaAhorroRuta.java
+/home/cristopher/eclipse-workspace/bfa-deposito-mixto-new/src/main/java/sv/gob/bfa/deposito/mixto/cuentaahorro/model/ReversaDepositoMixtoCuentaAhorroPeticion.java
+/home/cristopher/eclipse-workspace/bfa-deposito-mixto-new/src/main/java/sv/gob/bfa/deposito/mixto/cuentaahorro/servicio/ReversaDepositoMixtoCuentaAhorroServicio.java
+/home/cristopher/eclipse-workspace/bfa-deposito-mixto-new/src/main/java/sv/gob/bfa/middleware/PSConsumerApplication.java
+/home/cristopher/eclipse-workspace/bfa-deposito-mixto-new/src/main/java/sv/gob/bfa/deposito/mixto/cuentaahorro/model/ReversaDepositoMixtoCuentaAhorroRespuesta.java
+/home/cristopher/eclipse-workspace/bfa-deposito-mixto-new/src/main/java/sv/gob/bfa/deposito/mixto/cuentaahorro/model/DepositoMixtoCuentaAhorroPeticion.java
+/home/cristopher/eclipse-workspace/bfa-deposito-mixto-new/src/main/java/sv/gob/bfa/middleware/processors/ProcessorJMSAttributes.java
+/home/cristopher/eclipse-workspace/bfa-deposito-mixto-new/src/main/java/sv/gob/bfa/deposito/mixto/cuentaahorro/model/DepositoMixtoCuentaAhorroRespuesta.java
+/home/cristopher/eclipse-workspace/bfa-deposito-mixto-new/src/main/java/sv/gob/bfa/deposito/mixto/cuentaahorro/servicio/DepositoMixtoCuentaAhorroServicio.java

@@ -1,0 +1,62 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"description": "Peticion Pagaduria Generico",
+	"type": "object",
+	"properties": {
+		"codColector": {
+			"type": "number"
+		},
+		"codTipoDocumento": {
+			"type": "number"
+		},
+		"codOficinaTran": {
+			"type": "number"
+		},
+		"codTran": {
+			"type": "number"
+		},
+		"numDocumentoTran": {
+			"type": ["number", "null"]
+		},
+		"senSupervisor": {
+			"type": "number"
+		},
+		"valorMovimiento": {
+			"type": "number"
+		},
+		"camposFormulario": {
+			"type": "string"
+		},
+		"codTerminal": {
+			"type": "number"
+		},
+		"codCajero": {
+			"type": "string"
+		},
+		"numLote": {
+			"type": ["number", "null"]
+		},
+		"numCaja": {
+			"type": "number"
+		},
+		"valorEfectivo": {
+			"type": ["number", "null"]
+		},
+		"glbDtime": {
+			"type": "number"
+		}
+	},
+	"required": [
+		"codColector",
+		"codTipoDocumento",
+		"codOficinaTran",
+		"codTran",
+		"senSupervisor",
+		"valorMovimiento",
+		"camposFormulario",
+		"codTerminal",
+		"codCajero",
+		"numCaja",
+		"glbDtime"
+	]
+}

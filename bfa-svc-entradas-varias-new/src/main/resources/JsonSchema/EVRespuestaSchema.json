@@ -1,0 +1,61 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"description": "Respuesta Entradas Varias",
+	"type": "object",
+	"properties": {
+		"codigo": {
+			"type": "number"
+		},
+		"descripcion": {
+			"type": "String"
+		},
+		"codProducto": {
+			"type": "number"
+		},
+		"codOficina": {
+			"type": "number"
+		},
+		"numCuenta": {
+			"type": "number"
+		},
+		"digitoVerificador": {
+			"type": "number"
+		},
+		"numDocumentoTran": {
+			"type": "number"
+		},
+		"codCajero": {
+			"type": "string"
+		},
+		"nomCajero": {
+			"type": "string"
+		},
+		"codOficinaTran": {
+			"type": "number"
+		},
+		"nomOficinaTran": {
+			"type": "string"
+		},
+		"codPantalla": {
+			"type": "String"
+		},
+		"fechaReal": {
+			"type": "number"
+		},
+		"horaSistema": {
+			"type": "number"
+		},
+		"valorEfectivo": {
+			"type": "number"
+		},
+		"codCompania": {
+			"type": "number"
+		},
+		"numTran": {
+			"type": "number"
+		},
+		"nomnbrePaisDestino": {
+                "type": "String"
+		}
+	}
+}

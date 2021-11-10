@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+     "description": "Pago de Comision Reversa Respuesta",
+  "type": "object",
+  "properties":
+      {
+	       "codCausal": 			{ "type": "number" },      
+	       "numDocumentoTran": 		{ "type": "number" },
+	       "cuentaTransaccion": 	{ "type": "string"},
+	       "valorEfectivo": 		{ "type": "number" },
+	       "tipDocumentoPersona": 	{ "type": "number" },
+	       "numDocumentoPersona": 	{ "type": "string" },
+	       "nombrePersona": 		{ "type": "string" },              
+	       "numReferencia": 		{ "type": "string" },
+	       "numTransLavado": 		{ "type": "number" },
+	       "codSubcausal": 			{ "type": "number"}, 
+	       "codTran":				{ "type": "number"},
+	       "senSupervisor": 		{ "type": "number"},
+	       "numCaja": 				{ "type": "number"},
+	       "codCajero": 			{ "type": "string"},
+	       "codTerminal": 			{ "type": "number"},
+	       "codOficinaTran": 		{ "type": "number"},
+	       "numReversa": 			{ "type": "number"}
+       },
+
+      "required": [
+					"codCausal",
+					"numDocumentoTran",
+					"valorEfectivo",
+					"codTran",
+					"senSupervisor",
+					"numCaja",
+					"codCajero",
+					"codTerminal",
+					"codOficinaTran"
+				  ]
+}

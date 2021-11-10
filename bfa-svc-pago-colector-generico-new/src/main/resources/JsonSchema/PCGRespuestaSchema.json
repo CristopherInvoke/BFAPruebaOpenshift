@@ -1,0 +1,60 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"description": "Respuesta Colector Generico",
+	"type": "object",
+	"properties": {
+		"codColector": {
+			"type": "number"
+		},
+		"codTipoDocumento": {
+			"type": "number"
+		},
+		"codMoneda": {
+			"type": "number"
+		},
+		"codOficinaTran": {
+			"type": "number"
+		},
+		"codTran": {
+			"type": "number"
+		},
+		"numDocumentoTran": {
+			"type": "number"
+		},
+		"senSupervisor": {
+			"type": "number"
+		},
+		"valorMovimiento": {
+			"type": "number",
+			"multipleOf": 0.01
+		},
+		"codBarra": {
+			"type": "string"
+		},
+		"valorEfectivo": {
+			"type": "number",
+			"multipleOf": 0.01
+		},
+		"codTerminalTran": {
+			"type": "number"
+		},
+		"codCajero": {
+			"type": "string"
+		},
+		"numLote": {
+			"type": "number"
+		},
+		"codProducto": {
+			"type": "number"
+		},
+		"numCaja": {
+			"type": "string"
+		},
+		"codCausal": {
+			"type": "number"
+		},
+		"codSubCausal": {
+			"type": "number"
+		}
+	}
+}

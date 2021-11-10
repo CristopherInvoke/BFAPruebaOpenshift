@@ -1,0 +1,61 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"description": "Respuesta Reversa Pagaduria Generico",
+	"type": "object",
+	"properties": {
+		"codigo": {
+			"type": "number"
+		},
+		"descripcion": {
+			"type": "String"
+		},
+		"fechaTransaccion": {
+			"type": "number"
+		},
+		"numTran": {
+			"type": "string"
+		},
+		"nomAgencia": {
+			"type": "string"
+		},
+		"horaSistema": {
+			"type": "number"
+		},
+		"numIdentificacionCliente": {
+			"type": "string"
+		},
+		"periodoPago": {
+			"type": "string"
+		},
+		"descTipoDocumento": {
+			"type": "string"
+		},
+		"impresionFISDL": {
+			"type": "string"
+		},
+		"dui": {
+			"type": "string"
+		},
+		"nomCliente": {
+			"type": "String"
+		},
+		"convenio": {
+			"type": "string"
+		},
+		"tipoDocumento": {
+			"type": "string"
+		},
+		"codPlanilla": {
+			"type": "string"
+		},
+		"programaFISDL": {
+			"type": "string"
+		},
+		"codCausal": {
+			"type": "number"
+		},
+		"codSubCausal": {
+			"type": "number"
+		}
+	}
+}

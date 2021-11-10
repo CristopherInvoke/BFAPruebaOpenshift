@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Peticion Pago Ministerio Hacienda",
+  "type": "object",
+  "properties": {
+      "idTransaccionMh": {
+      "type": "number"
+      },
+       "codRespuestaMh": {
+       "type": "number"
+      },
+       "descRespuestaMh": {
+       "type": "string"
+      },
+       "numTran": {
+       "type": "number"
+      },
+      "numDocumentoTran": {
+       "type": "number"
+      },
+      "nomCajero": {
+       "type": "string"
+      },
+      "nomOficinaTran": {
+       "type": "string"
+      },
+      "npe": {
+      "type": "string"
+      },
+      "codBarra": {
+      "type": "string"
+      },
+   "required": ["idTransaccionMh","codRespuestaMh","descRespuestaMh","numTran","numDocumentoTran","nomCajero","nomOficinaTran","npe","codBarra"]
+ }
+ 
+}

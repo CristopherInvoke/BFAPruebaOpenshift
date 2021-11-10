@@ -1,0 +1,15 @@
+/home/cristopher/eclipse-workspace/bfa-conectores-servicios-DELSUR-new/src/main/java/sv/com/delsur/ConsultarSaldoResponse.java
+/home/cristopher/eclipse-workspace/bfa-conectores-servicios-DELSUR-new/src/main/java/sv/delsur/colectores/erp/pagolinea/AplicarPago.java
+/home/cristopher/eclipse-workspace/bfa-conectores-servicios-DELSUR-new/src/main/java/sv/gob/bfa/conectores/servicios/delsur/ruta/ConectoresServiciosDelsurRuta.java
+/home/cristopher/eclipse-workspace/bfa-conectores-servicios-DELSUR-new/src/main/java/sv/com/delsur/AplicarPagoResponse.java
+/home/cristopher/eclipse-workspace/bfa-conectores-servicios-DELSUR-new/src/main/java/sv/gob/bfa/middleware/PSConsumerApplication.java
+/home/cristopher/eclipse-workspace/bfa-conectores-servicios-DELSUR-new/src/main/java/sv/com/delsur/AnularPago.java
+/home/cristopher/eclipse-workspace/bfa-conectores-servicios-DELSUR-new/src/main/java/sv/com/delsur/ObjectFactory.java
+/home/cristopher/eclipse-workspace/bfa-conectores-servicios-DELSUR-new/src/main/java/sv/com/delsur/ConsultarSaldo.java
+/home/cristopher/eclipse-workspace/bfa-conectores-servicios-DELSUR-new/src/main/java/sv/com/delsur/package-info.java
+/home/cristopher/eclipse-workspace/bfa-conectores-servicios-DELSUR-new/src/main/java/sv/delsur/colectores/erp/pagolinea/AplicarPagoService.java
+/home/cristopher/eclipse-workspace/bfa-conectores-servicios-DELSUR-new/src/main/java/sv/com/delsur/AnularPagoResponse.java
+/home/cristopher/eclipse-workspace/bfa-conectores-servicios-DELSUR-new/src/main/java/sv/gob/bfa/conectores/servicio/delsur/dto/ConectoresServiciosDelsurPeticion.java
+/home/cristopher/eclipse-workspace/bfa-conectores-servicios-DELSUR-new/src/main/java/sv/com/delsur/AplicarPago.java
+/home/cristopher/eclipse-workspace/bfa-conectores-servicios-DELSUR-new/src/main/java/sv/gob/bfa/conectores/servicio/delsur/dto/ConectoresServiciosDelsurRespuesta.java
+/home/cristopher/eclipse-workspace/bfa-conectores-servicios-DELSUR-new/src/main/java/sv/gob/bfa/middleware/processors/ProcessorJMSAttributes.java

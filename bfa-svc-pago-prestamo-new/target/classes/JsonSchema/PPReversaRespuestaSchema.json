@@ -1,0 +1,119 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"description": "Respuesta Reversa Pago Prestamo",
+	"type": "object",
+	"properties": {
+		"codigo": {
+			"type": "number"
+		},
+		"descripcion": {
+			"type": "String"
+		},
+		"nombreCliente": {
+			"type": "String"
+		},
+		"codCliente": {
+			"type": "string"
+		},
+		"duiCliente": {
+			"type": "string"
+		},
+		"lugarExpedicion": {
+			"type": "string"
+		},
+		"nomDocumentoPersona": {
+			"type": "string"
+		},
+		"fechaExpedicion": {
+			"type": "number"
+		},
+		"codCajero": {
+			"type": "string"
+		},
+		"nomCajero": {
+			"type": "string"
+		},
+		"nomOficina": {
+			"type": "string"
+		},
+		"codPantalla": {
+			"type": "string"
+		},
+		"fechaSistema": {
+			"type": "number"
+		},
+		"fechaReal": {
+			"type": "number"
+		},
+		"fechaRelativa": {
+			"type": "number"
+		},
+		"horaSistema": {
+			"type": "number"
+		},
+		"cuentaPrestamo": {
+			"type": "string"
+		},
+		"codOficinaTran": {
+			"type": "number"
+		},
+		"numTransLavado": {
+			"type": "number"
+		},
+		"valorMovimiento": {
+			"type": "number"
+		},
+		"cheques": {
+			"type": [
+				"array",
+				"null"
+			],
+			"items": {
+				"$ref": "#/definitions/listCheque"
+			}
+		}
+	},
+	"definitions": {
+		"listCheque": {
+			"type": "object",
+			"properties": {
+				"numCheque": {
+					"type": "number"
+				},
+				"cuentaCheque": {
+					"type": "string"
+				},
+				"codBancoCheque": {
+					"type": "number"
+				},
+				"valorCheque": {
+					"type": "number"
+				},
+				"tipCheque": {
+					"type": "number"
+				},
+				"codPlazaCheque": {
+					"type": "number"
+				},
+				"numOperInternacional": {
+					"type": "number"
+				},
+				"autMaxDiasCheque": {
+					"type": "number"
+				},
+				"numAutorizacion": {
+					"type": "number"
+				},
+				"codTran": {
+					"type": "number"
+				},
+				"codPantalla": {
+					"type": "string"
+				},
+				"codCausal": {
+					"type": "number"
+				}
+			}
+		}
+	}
+}

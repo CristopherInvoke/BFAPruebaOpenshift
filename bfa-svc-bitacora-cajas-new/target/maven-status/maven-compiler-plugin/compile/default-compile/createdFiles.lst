@@ -1,0 +1,5 @@
+sv/gob/bfa/middleware/PSConsumerApplication.class
+sv/gob/bfa/bitacora/cajas/ruta/BitacoraCajasRuta$1.class
+sv/gob/bfa/bitacora/cajas/ruta/BitacoraCajasRuta.class
+sv/gob/bfa/middleware/processors/ProcessorJMSAttributes.class
+sv/gob/bfa/bitacora/cajas/ruta/BitacoraCajasRuta$BitacoraProcessor.class

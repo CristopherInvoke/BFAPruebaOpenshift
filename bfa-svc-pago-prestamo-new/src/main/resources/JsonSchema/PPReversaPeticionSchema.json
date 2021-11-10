@@ -1,0 +1,113 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Peticion Reversa Pago Prestamo",
+  "type": "object",
+  "properties": {
+      "codTran": {
+      "type": "number"
+      },
+       "numReversa": {
+       "type": "number"
+      },
+       "numDocumentoTran": {
+       "type": "number"
+      },
+       "cuentaPrestamo": {
+       "type": "string"
+      },
+       "valorEfectivo": {
+       "type": "number"
+      },
+      "valorCheques": {
+       "type": ["number", "null"]
+      },
+       "valorChequesPropios": {
+       "type": ["number", "null"]
+      },
+       "valorChequesAjenos": {
+       "type": ["number", "null"]
+      },
+       "tipDocumentoPersona": {
+       "type": "number"
+      },
+       "numDocumentoPersona": {
+       "type": "string"
+      },
+       "nombrePersona": {
+       "type": "string"
+      },
+       "numTransLavado": {
+       "type": ["number", "null"]
+      },
+       "codOficinaTran": {
+       "type": "number"
+      },
+       "codTerminal": {
+       "type": "number"
+      },
+       "valorMovimiento": {
+       "type": "number"
+      },
+       "codCajero": {
+       "type": "string"
+      },
+       "numCaja": {
+       "type": "number"
+      },
+      "senSupervisor": {
+       "type": "number"
+      },
+       "cheques": {
+       "type": ["array", "null"],
+       "items": {"$ref": "#/definitions/listCheque" }
+      }
+  },
+      "required": ["codTran","numReversa","numDocumentoTran","cuentaPrestamo","senSupervisor",
+      "codTerminal","valorMovimiento","tipDocumentoPersona","numDocumentoPersona",
+      "nombrePersona","valorEfectivo","codOficinaTran","codCajero","numCaja"],   
+      "definitions": {
+      "listCheque": {
+      "type": "object",
+      "required": [ "numCheque", "cuentaCheque", "codBancoCheque", "valorCheque", "tipCheque", 
+      			    "codPlazaCheque", "codPantalla" ],
+      "properties": {
+        "numCheque": {
+          "type": "number"
+        },
+        "cuentaCheque": {
+          "type": "string"
+        },
+       "codBancoCheque": {
+          "type": "number"
+        },
+        "valorCheque": {
+          "type": "number"
+        },
+         "tipCheque": {
+          "type": "number"
+        },
+        "codPlazaCheque": {
+          "type": "number"
+        },
+        "numOperInternacional": {
+          "type": ["number", "null"]
+        },
+        "autMaxDiasCheque":{
+          "type": ["number", "null"]
+        },
+         "numAutorizacion": {
+          "type": ["number", "null"]
+        },
+        "codTran": {
+          "type": ["number", "null"]
+        },
+        "codPantalla": {
+          "type": "string"
+        },
+        "codCausal": {
+          "type": ["number", "null"]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"description": "Peticion Entradas Varias",
+	"type": "object",
+	"properties": {
+		"codTran": {
+			"type": "number"
+		},
+		"senSupervisor": {
+			"type": "number"
+		},
+		"numDocumentoTran": {
+			"type": "number"
+		},
+		"codMoneda": {
+			"type": "number"
+		},
+		"codCausal": {
+			"type": "number"
+		},
+		"cuentaTransaccion": {
+			"type": ["string", "null"]
+		},
+		"valorEfectivo": {
+			"type": "number"
+		},
+		"numTransLavado": {
+			"type": [
+				"number",
+				"null"
+			]
+		},
+		"tipDocumentoPersona": {
+			"type": ["number", "null"]
+		},
+		"numDocumentoPersona": {
+			"type": ["string", "null"]
+		},
+		"nombrePersona": {
+			"type": ["string", "null"]
+		},
+		"codOficinaTran": {
+			"type": "number"
+		},
+		"codTerminal": {
+			"type": "number"
+		},
+		"codCajero": {
+			"type": "string"
+		},
+		"codSubCausal": {
+			"type": ["number", "null"]
+		},
+		"numCaja": {
+			"type": "number"
+		}
+	},
+	"required": [
+		"codTran",
+		"senSupervisor",
+		"numDocumentoTran",
+		"codMoneda",
+		"codCausal",
+		"valorEfectivo",
+		"codOficinaTran",
+		"codTerminal",
+		"codCajero",
+		"numCaja"
+	]
+}

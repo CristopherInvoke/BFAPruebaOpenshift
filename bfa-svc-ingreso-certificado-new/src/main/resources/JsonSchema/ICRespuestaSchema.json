@@ -1,0 +1,86 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Respuesta Ingreso de Certificado en Caja",
+  "type": "object",
+  "properties": {
+    "codigo":           		{ "type": "number" },
+    "descripcion":      		{ "type": "String" },
+    "cuentaDeposito":   		{ "type": "String" },
+    "numDocumentoTran": 		{ "type": "number" },
+    "codCliente":      		 	{ "type": "String" },
+    "nombreCliente":   		 	{ "type": "String" },    
+    "codCajero":        		{ "type": "String" },
+    "nomCajero":        		{ "type": "String" },
+    "codOficinaTran":   		{ "type": "number" },
+    "nomOficinaTran":   		{ "type": "String" },
+    "codPantalla":      		{ "type": "String" },
+    "fechaSistema":     		{ "type": "number" },
+    "fechaReal":       			{ "type": "number" },
+    "horaSistema":      		{ "type": "number" },
+    "valorEfectivo":    		{ "type": "number" },
+    "valorCheques":     		{ "type": "number" },
+    "valorMovimiento":  		{ "type": "number" },
+    "nomTipDocumentoPersona":   { "type": "String" },
+    "numDocumentoPersona":   	{ "type": "String" },
+    "nombrePersona":  			{ "type": "String" },
+    "nomTipDocumentoCliente":   { "type": "String" },
+    "numDocumentoCliente":      { "type": "number" },
+    "lugarExpedicion":   		{ "type": "String" },   
+    "fechaExpedicion":   		{ "type": "number" },
+    "numTran":		    		{ "type": "number" },
+    "cheques": 				    { "type": ["array", "null"],
+				       			  "items": {"$ref": "#/definitions/listCheque"}
+      		                    }
+       },
+     
+    "required": [ 
+    				    "codigo",           
+					    "descripcion",      
+					    "cuentaDeposito",   
+					    "numDocumentoTran", 
+					    "codCliente",      
+					    "nombreCliente",   
+					    "codCajero",        
+					    "nomCajero",        
+					    "codOficinaTran",   
+					    "nomOficinaTran",   
+					    "codPantalla",      
+					    "fechaSistema",     
+					    "fechaReal",       
+					    "horaSistema",      
+					    "valorEfectivo",    
+					    "valorCheques",     
+					    "valorMovimiento",  
+					    "nomTipDocumentoPersona",
+					    "numDocumentoPersona",   
+					    "nombrePersona",  
+					    "nomTipDocumentoCliente",
+					    "numDocumentoCliente",
+					    "lugarExpedicion",   
+					    "fechaExpedicion",   
+					    "numTran"
+				  ],
+	   "definitions": 
+    	{
+    		"listCheque": 
+    			{
+					"type": "object",
+   					"properties":
+						{
+					        "numCheque": 			{"type": "number"},
+					        "cuentaCheque": 		{"type": "string"},
+					       	"codBancoCheque": 		{"type": "number"},
+					        "valorCheque": 			{"type": "number"},
+					        "tipCheque": 			{"type": "number"},
+					        "codPlazaCheque": 		{"type": "number"},
+							"numOperInternacional": {"type": ["number", "null"]},
+							"autMaxDiasCheque": 	{"type": ["number", "null"]},
+					        "numAutorizacion": 		{"type": ["number", "null"]},					        
+					        "numTran": 				{"type": ["number", "null"]},
+					        "codTran": 				{"type": ["number", "null"]},
+					        "codPantalla": 			{"type": "string"},
+					        "codCausal": 			{"type": ["number", "null"]}
+					    }
+			    }
+	    }
+}

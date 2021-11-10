@@ -1,0 +1,119 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"description": "Reversa Respuesta Deposito Mixto Cuenta Ahorro",
+	"type": "object",
+	"properties": {
+		"codigo": {
+			"type": "number"
+		},
+		"descripcion": {
+			"type": "String"
+		},
+		"nomCliente": {
+			"type": "String"
+		},
+		"codCliente": {
+			"type": "string"
+		},
+		"duiCliente": {
+			"type": "string"
+		},
+		"expedicionDui": {
+			"type": "string"
+		},
+		"fechaExpedicionDui": {
+			"type": "number"
+		},
+		"nomCajero": {
+			"type": "string"
+		},
+		"nomOficinaTran": {
+			"type": "string"
+		},
+		"codPantalla": {
+			"type": "string"
+		},
+		"fechaSistema": {
+			"type": "number"
+		},
+		"fechaReal": {
+			"type": "number"
+		},
+		"fechaRelativa": {
+			"type": "number"
+		},
+		"horaSistema": {
+			"type": "number"
+		},
+		"numTran": {
+			"type": "number"
+		},
+		"valorEfectivo": {
+			"type": "number"
+		},
+		"valorChequesPropios": {
+			"type": "number"
+		},
+		"valorChequesAjenos": {
+			"type": "number"
+		},
+		"valorChequesExt": {
+			"type": "number"
+		},
+		"valorMovimiento": {
+			"type": "number"
+		},
+		"cheques": {
+			"type": [
+				"array",
+				"null"
+			],
+			"items": {
+				"$ref": "#/definitions/listCheque"
+			}
+		}
+	},
+	"definitions": {
+		"listCheque": {
+			"type": "object",
+			"properties": {
+				"numCheque": {
+					"type": "number"
+				},
+				"cuentaCheque": {
+					"type": "string"
+				},
+				"codBancoCheque": {
+					"type": "number"
+				},
+				"valorCheque": {
+					"type": "number"
+				},
+				"tipCheque": {
+					"type": "number"
+				},
+				"codPlazaCheque": {
+					"type": "number"
+				},
+				"numOperInternacional": {
+					"type": "number"
+				},
+				"autMaxDiasCheque": {
+					"type": "number"
+				},
+				"numAutorizacion": {
+					"type": "number"
+				},
+				"codTran": {
+					"type": "number"
+				},
+				"codPantalla": {
+					"type": "string"
+				},
+				"codCausal": {
+					"type": "number"
+				}
+			}
+		}
+	}
+}

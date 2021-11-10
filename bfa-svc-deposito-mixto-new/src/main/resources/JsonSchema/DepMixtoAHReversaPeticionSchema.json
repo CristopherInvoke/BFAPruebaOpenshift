@@ -1,0 +1,129 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Reversa Peticion Deposito Mixto Cuenta Ahorro",
+  "type": "object",
+  "properties": {
+      "codTran": {
+      "type": "number"
+      },
+       "numDocumentoTran": {
+       "type": "number"
+      },
+      "numReversa": {
+       "type": "number"
+      },
+       "cuentaAhorro": {
+       "type": "string"
+      },
+      "numLibreta": {
+       "type": ["number", "null"]
+      },
+       "tipDocumentoPerSimplifica": {
+       "type": ["number", "null"]
+      },
+       "numDocumentoPerSimplifica": {
+       "type": ["string", "null"]
+      },
+       "tipDocumentoPersona": {
+       "type": "number"
+      },
+       "numDocumentoPersona": {
+       "type": "string"
+      },
+       "nombrePersona": {
+       "type": "string"
+      },
+       "numTransLavado": {
+       "type": ["number", "null"]
+      },
+       "valorEfectivo": {
+       "type": "number"
+      },
+       "valorCheques": {
+       "type": ["number"]
+      },
+       "valorChequesPropios": {
+       "type": ["number"]
+      },
+       "valorChequesAjenos": {
+       "type": ["number"]
+      },
+       "valorChequesExt": {
+       "type": ["number"]
+      },
+       "valorMovimiento": {
+       "type": "number"
+      },
+       "codOficinaTran": {
+       "type": "number"
+      },
+       "codTerminal": {
+       "type": "number"
+      },
+       "codCajero": {
+       "type": "string"
+      },
+       "numCaja": {
+       "type": "number"
+      },
+      "senSupervisor": {
+       "type": "number"
+      },
+       "cheques": {
+       "type": ["array", "null"],
+       "items": {"$ref": "#/definitions/listCheque" }
+      }
+  },
+      "required": ["codTran","numDocumentoTran","numReversa","cuentaAhorro","tipDocumentoPersona",
+      			   "numDocumentoPersona","nombrePersona","valorEfectivo","valorMovimiento",
+      			   "codOficinaTran","codTerminal","codCajero","numCaja","senSupervisor", "valorCheques", 
+      			   "valorChequesPropios", "valorChequesAjenos", "valorChequesExt"],   
+      "definitions": {
+      "listCheque": {
+      "type": "object",
+      "required": [ "numCheque", "cuentaCheque", "codBancoCheque", "valorCheque", 
+      				"tipCheque", "codPlazaCheque", "codPantalla" ],
+      "properties": {
+        "numCheque": {
+          "type": "number"
+        },
+        "cuentaCheque": {
+          "type": "string"
+        },
+       "codBancoCheque": {
+          "type": "number"
+        },
+        "valorCheque": {
+          "type": "number"
+        },
+         "tipCheque": {
+          "type": "number"
+        },
+        "numOperInternacional": {
+          "type": ["number", "null"]
+        },
+         "numTran": {
+          "type": ["number", "null"]
+        },
+        "numAutorizacion": {
+          "type": ["number", "null"]
+        },
+        "codPlazaCheque": {
+          "type": "number"
+        },
+        "codTran": {
+          "type": ["number", "null"]
+        },
+        "codPantalla": {
+          "type": "string"
+        },
+        "codCausal": {
+          "type": ["number", "null"]
+        },
+        "autMaxDiasCheque": {
+          "type": ["number", "null"]
+        }
+      }
+    }
+  }
+}

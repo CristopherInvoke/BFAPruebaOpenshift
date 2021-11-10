@@ -1,0 +1,52 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"description": "Peticion Reversa Pagaduria Generico",
+	"type": "object",
+	"properties": {
+		"codColector": {
+			"type": "number"
+		},
+		"codTipoDocumento": {
+			"type": "number"
+		},
+		"codOficinaTran": {
+			"type": "number"
+		},
+		"codTran": {
+			"type": "number"
+		},
+		"numDocumentoTran": {
+			"type": ["number", "null"]
+		},
+		"valorMovimiento": {
+			"type": "number"
+		},
+		"camposFormulario": {
+			"type": "string"
+		},
+		"codTerminal": {
+			"type": "number"
+		},
+		"codCajero": {
+			"type": "string"
+		},
+		"numReversa": {
+			"type": "number"
+		},
+		"glbDtime": {
+			"type": "number"
+		}
+	},
+	"required": [
+		"codColector",
+		"codTipoDocumento",
+		"codOficinaTran",
+		"codTran",
+		"valorMovimiento",
+		"camposFormulario",
+		"codTerminal",
+		"codCajero",
+		"numReversa",
+		"glbDtime"
+	]
+}

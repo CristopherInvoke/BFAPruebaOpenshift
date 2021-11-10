@@ -1,0 +1,9 @@
+/home/cristopher/eclipse-workspace/bfa-svc-pago-gastos-ajenos-pp-new/src/main/java/sv/gob/bfa/pago/gastos/ajenos/prestamo/model/PagoGastosAjenosPrestamoPeticion.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-gastos-ajenos-pp-new/src/main/java/sv/gob/bfa/pago/gastos/ajenos/prestamo/model/ReversaPagoGastosAjenosPrestamoRespuesta.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-gastos-ajenos-pp-new/src/main/java/sv/gob/bfa/pago/gastos/ajenos/prestamo/servicio/PagoGastosAjenosPrestamoServicio.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-gastos-ajenos-pp-new/src/main/java/sv/gob/bfa/pago/gastos/ajenos/prestamo/model/ReversaPagoGastosAjenosPrestamoPeticion.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-gastos-ajenos-pp-new/src/main/java/sv/gob/bfa/middleware/PSConsumerApplication.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-gastos-ajenos-pp-new/src/main/java/sv/gob/bfa/pago/gastos/ajenos/prestamo/model/PagoGastosAjenosPrestamoRespuesta.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-gastos-ajenos-pp-new/src/main/java/sv/gob/bfa/pago/gastos/ajenos/prestamo/servicio/ReversaPagoGastosAjenosPrestamoServicio.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-gastos-ajenos-pp-new/src/main/java/sv/gob/bfa/pago/gastos/ajenos/prestamo/ruta/PagoGastosAjenosPrestamoRuta.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-gastos-ajenos-pp-new/src/main/java/sv/gob/bfa/middleware/processors/ProcessorJMSAttributes.java

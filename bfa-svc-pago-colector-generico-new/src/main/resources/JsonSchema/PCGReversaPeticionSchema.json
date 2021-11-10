@@ -1,0 +1,48 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"description": "Peticion Reversa Colector Generico",
+	"type": "object",
+	"properties": {
+		"codColector": {
+			"type": "number"
+		},
+		"codTipoDocumento": {
+			"type": "number"
+		},
+		"codOficinaTran": {
+			"type": "number"
+		},
+		"codTran": {
+			"type": "number"
+		},
+		"numDocumentoTran": {
+			"type": ["number","null"]
+		},
+		"valorMovimiento": {
+			"type": "number",
+			"multipleOf": 0.01
+		},
+		"camposFormulario": {
+			"type": "string"
+		},
+		"codTerminal": {
+			"type": "number"
+		},
+		"codCajero": {
+			"type": "string"
+		},
+		"numReversa": {
+			"type": "number"
+		}
+	},
+	"required": [
+		"codColector",
+		"codTipoDocumento",
+		"codOficinaTran",
+		"codTran",
+		"valorMovimiento",
+		"codTerminal",
+		"codCajero",
+		"numReversa"
+		]
+}

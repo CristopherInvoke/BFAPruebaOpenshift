@@ -1,0 +1,12 @@
+sv/gob/bfa/ingresocertificado/model/IngresoCertificadoReversaPeticion.class
+sv/gob/bfa/ingresocertificado/model/IngresoCertificadoPeticion.class
+sv/gob/bfa/ingresocertificado/model/IngresoCertificadoReversaRespuesta.class
+sv/gob/bfa/ingresocertificado/ruta/IngresoCertificadoRuta$1.class
+sv/gob/bfa/ingresocertificado/servicio/IngresoCertificadoReversaServicio.class
+sv/gob/bfa/ingresocertificado/ruta/IngresoCertificadoRuta.class
+sv/gob/bfa/ingresocertificado/ruta/IngresoCertificadoRuta$3.class
+sv/gob/bfa/middleware/PSConsumerApplication.class
+sv/gob/bfa/ingresocertificado/ruta/IngresoCertificadoRuta$2.class
+sv/gob/bfa/ingresocertificado/servicio/IngresoCertificadoServicio.class
+sv/gob/bfa/middleware/processors/ProcessorJMSAttributes.class
+sv/gob/bfa/ingresocertificado/model/IngresoCertificadoRespuesta.class

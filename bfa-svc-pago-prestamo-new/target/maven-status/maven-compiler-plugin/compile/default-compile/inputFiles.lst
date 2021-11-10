@@ -1,0 +1,9 @@
+/home/cristopher/eclipse-workspace/bfa-svc-pago-prestamo-new/src/main/java/sv/gob/bfa/middleware/PSConsumerApplication.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-prestamo-new/src/main/java/sv/gob/bfa/pagoprestamo/servicio/PagoPrestamoServicio.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-prestamo-new/src/main/java/sv/gob/bfa/pagoprestamo/model/PagoPrestamoPeticion.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-prestamo-new/src/main/java/sv/gob/bfa/pagoprestamo/model/PagoPrestamoRespuesta.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-prestamo-new/src/main/java/sv/gob/bfa/middleware/processors/ProcessorJMSAttributes.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-prestamo-new/src/main/java/sv/gob/bfa/pagoprestamo/model/ReversaPagoPrestamoRespuesta.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-prestamo-new/src/main/java/sv/gob/bfa/pagoprestamo/servicio/PagoPrestamoReversaServicio.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-prestamo-new/src/main/java/sv/gob/bfa/pagoprestamo/model/ReversaPagoPrestamoPeticion.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-prestamo-new/src/main/java/sv/gob/bfa/pagoprestamo/ruta/PagoPrestamoRuta.java

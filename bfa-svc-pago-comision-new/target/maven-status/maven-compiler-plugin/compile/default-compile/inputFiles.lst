@@ -1,0 +1,9 @@
+/home/cristopher/eclipse-workspace/bfa-svc-pago-comision-new/src/main/java/sv/gob/bfa/pagocomision/model/PagoComisionReversaPeticion.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-comision-new/src/main/java/sv/gob/bfa/pagocomision/model/PagoComisionPeticion.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-comision-new/src/main/java/sv/gob/bfa/middleware/PSConsumerApplication.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-comision-new/src/main/java/sv/gob/bfa/middleware/processors/ProcessorJMSAttributes.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-comision-new/src/main/java/sv/gob/bfa/pagocomision/ruta/PagoComisionRuta.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-comision-new/src/main/java/sv/gob/bfa/pagocomision/servicio/PagoComisionServicio.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-comision-new/src/main/java/sv/gob/bfa/pagocomision/servicio/PagoComisionReversaServicio.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-comision-new/src/main/java/sv/gob/bfa/pagocomision/model/PagoComisionReversaRespuesta.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-comision-new/src/main/java/sv/gob/bfa/pagocomision/model/PagoComisionRespuesta.java

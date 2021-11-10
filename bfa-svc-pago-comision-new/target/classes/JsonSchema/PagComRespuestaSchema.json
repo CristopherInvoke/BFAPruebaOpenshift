@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+   "description": "Pago de Comision Respuesta",
+  "type": "object",
+  "properties":
+      {
+	       "numDocumentoTran": 		{ "type": "number" },
+	       "cuentaTransaccion": 	{ "type": "string"},
+	       "codCajero": 			{ "type": "string"},
+	       "nomCajero": 			{ "type": "string"},
+	       "codOficinaTran": 		{ "type": "number"},
+	       "nomOficinaTran": 		{ "type": "string"},
+	       "codPantalla": 			{ "type": "number"},
+	       "fechaSistema": 			{ "type": "number"},
+    	   "fechaReal": 			{ "type": "number"},
+    	   "horaSistema": 			{ "type": "number"},
+    	   "fechaRelativa": 		{ "type": "number"},       
+	       "valorEfectivo": 		{ "type": "number" },
+	       "valorCheques": 			{ "type": "number" },
+	       "valorChequesPropios": 	{ "type": ["number"]},
+       	   "valorChequesAjenos": 	{ "type": ["number"]},
+       	   "valorChequesExt": 		{ "type": ["number"]},
+	       "valorMovimiento": 		{ "type": "number" },
+	       "numTran":               { "type": "number"},
+	       "senCreditoFiscal"		{ "type": "number"},
+	       "cheques": 				{  "type": ["array", "null"],
+				       				   "items": {"$ref": "#/definitions/listCheque"}
+      		}
+       },
+      "required": [
+					"numDocumentoTran",
+					"valorEfectivo",
+					"codTran",
+					"senSupervisor",
+					"numCaja",
+					"codCajero",
+					"codTerminal",
+					"codOficinaTran",
+					"numTran"
+					"fechaSistema",
+					"fechaReal",
+					"horaSistema",
+					"fechaRelativa",
+					"senCreditoFiscal"					
+				  ],
+	   "definitions": 
+    	{
+    		"listCheque": 
+    			{
+					"type": "object",
+   					"properties":
+						{
+					        "numCheque": 			{"type": "number"},
+					        "cuentaCheque": 		{"type": "string"},
+					       	"codBancoCheque": 		{"type": "number"},
+					        "valorCheque": 			{"type": "number"},
+					        "tipCheque": 			{"type": "number"},
+					        "codPlazaCheque": 		{"type": "number"},
+							"numOperInternacional": {"type": ["number", "null"]},
+							"autMaxDiasCheque": 	{"type": ["number", "null"]},
+					        "numAutorizacion": 		{"type": ["number", "null"]},					        
+					        "numTran": 				{"type": ["number", "null"]},
+					        "codTran": 				{"type": ["number", "null"]},
+					        "codPantalla": 			{"type": "string"},
+					        "codCausal": 			{"type": ["number", "null"]}
+					    }
+			    }
+	    }
+}

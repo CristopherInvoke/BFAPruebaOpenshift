@@ -1,0 +1,9 @@
+/home/cristopher/eclipse-workspace/bfa-svc-pago-colector-generico-new/src/main/java/sv/gob/bfa/middleware/processors/ProcessorJMSAttributes.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-colector-generico-new/src/main/java/sv/gob/bfa/pagocolectorgenerico/ruta/PagoColectorGenericoRuta.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-colector-generico-new/src/main/java/sv/gob/bfa/pagocolectorgenerico/model/PagoColectorGenericoPeticion.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-colector-generico-new/src/main/java/sv/gob/bfa/pagocolectorgenerico/servicio/PagoColectorGenericoServicio.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-colector-generico-new/src/main/java/sv/gob/bfa/pagocolectorgenerico/model/ReversaPagoColectorGenericoRespuesta.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-colector-generico-new/src/main/java/sv/gob/bfa/pagocolectorgenerico/servicio/ReversaPagoColectorGenericoServicio.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-colector-generico-new/src/main/java/sv/gob/bfa/middleware/PSConsumerApplication.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-colector-generico-new/src/main/java/sv/gob/bfa/pagocolectorgenerico/model/ReversaPagoColectorGenericoPeticion.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-colector-generico-new/src/main/java/sv/gob/bfa/pagocolectorgenerico/model/PagoColectorGenericoRespuesta.java

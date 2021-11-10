@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="Aplicar_Pago"
+	targetNamespace="urn:delsur.sv:COLECTORES:ERP:PagoLinea"
+	xmlns:p2="http://delsur.com.sv"
+	xmlns:p1="urn:delsur.sv:COLECTORES:ERP:PagoLinea"
+	xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy"
+	xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"
+	xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+	<wsdl:documentation />
+	<wsp:UsingPolicy wsdl:required="true" />
+	<wsp:Policy wsu:Id="OP_Consultar_Saldo" />
+	<wsp:Policy wsu:Id="OP_Anular_Pago" />
+	<wsp:Policy wsu:Id="OP_Aplicar_Pago" />
+	<wsdl:types>
+		<xsd:schema targetNamespace="http://delsur.com.sv"
+			xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+			xmlns="http://delsur.com.sv">
+			<xsd:element name="Aplicar_PagoResponse">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="Aplicar_PagoResult"
+							type="xsd:string" minOccurs="0" form="qualified" />
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="Aplicar_Pago">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="pIdTransaccion" type="xsd:long"
+							form="qualified" />
+						<xsd:element name="pNisRad" type="xsd:long"
+							form="qualified" />
+						<xsd:element name="pCodAgencia" type="xsd:long"
+							form="qualified" />
+						<xsd:element name="pCodSucursal" type="xsd:long"
+							form="qualified" />
+						<xsd:element name="pIndPagoAlcaldia" type="xsd:string"
+							minOccurs="0" form="qualified" />
+						<xsd:element name="pMontoPagado" type="xsd:double"
+							form="qualified" />
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="Consultar_Saldo">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="pNisNpe" type="xsd:string"
+							minOccurs="0" form="qualified" />
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="Anular_Pago">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="pIdTransaccion" type="xsd:long"
+							form="qualified" />
+						<xsd:element name="pNisRad" type="xsd:long"
+							form="qualified" />
+						<xsd:element name="pCodAgencia" type="xsd:long"
+							form="qualified" />
+						<xsd:element name="pCodSucursal" type="xsd:long"
+							form="qualified" />
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="Anular_PagoResponse">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="Anular_PagoResult"
+							type="xsd:string" minOccurs="0" form="qualified" />
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+			<xsd:element name="Consultar_SaldoResponse">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="Consultar_SaldoResult"
+							type="xsd:string" minOccurs="0" form="qualified" />
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:schema>
+	</wsdl:types>
+	<wsdl:message name="p2.Consultar_SaldoSoapIn">
+		<wsdl:documentation />
+		<wsdl:part name="parameters" element="p2:Consultar_Saldo" />
+	</wsdl:message>
+	<wsdl:message name="p2.Consultar_SaldoSoapOut">
+		<wsdl:documentation />
+		<wsdl:part name="parameters"
+			element="p2:Consultar_SaldoResponse" />
+	</wsdl:message>
+	<wsdl:message name="p2.Anular_PagoSoapIn">
+		<wsdl:documentation />
+		<wsdl:part name="parameters" element="p2:Anular_Pago" />
+	</wsdl:message>
+	<wsdl:message name="p2.Anular_PagoSoapOut">
+		<wsdl:documentation />
+		<wsdl:part name="parameters"
+			element="p2:Anular_PagoResponse" />
+	</wsdl:message>
+	<wsdl:message name="p2.Aplicar_PagoSoapIn">
+		<wsdl:documentation />
+		<wsdl:part name="parameters" element="p2:Aplicar_Pago" />
+	</wsdl:message>
+	<wsdl:message name="p2.Aplicar_PagoSoapOut">
+		<wsdl:documentation />
+		<wsdl:part name="parameters"
+			element="p2:Aplicar_PagoResponse" />
+	</wsdl:message>
+	<wsdl:portType name="Aplicar_Pago">
+		<wsdl:documentation />
+		<wsdl:operation name="Consultar_Saldo">
+			<wsdl:documentation />
+			<wsp:Policy>
+				<wsp:PolicyReference URI="#OP_Consultar_Saldo" />
+			</wsp:Policy>
+			<wsdl:input message="p1:p2.Consultar_SaldoSoapIn" />
+			<wsdl:output message="p1:p2.Consultar_SaldoSoapOut" />
+		</wsdl:operation>
+		<wsdl:operation name="Anular_Pago">
+			<wsdl:documentation />
+			<wsp:Policy>
+				<wsp:PolicyReference URI="#OP_Anular_Pago" />
+			</wsp:Policy>
+			<wsdl:input message="p1:p2.Anular_PagoSoapIn" />
+			<wsdl:output message="p1:p2.Anular_PagoSoapOut" />
+		</wsdl:operation>
+		<wsdl:operation name="Aplicar_Pago">
+			<wsdl:documentation />
+			<wsp:Policy>
+				<wsp:PolicyReference URI="#OP_Aplicar_Pago" />
+			</wsp:Policy>
+			<wsdl:input message="p1:p2.Aplicar_PagoSoapIn" />
+			<wsdl:output message="p1:p2.Aplicar_PagoSoapOut" />
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="Aplicar_PagoBinding"
+		type="p1:Aplicar_Pago">
+		<soap:binding style="document"
+			transport="http://schemas.xmlsoap.org/soap/http"
+			xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" />
+		<wsdl:operation name="Consultar_Saldo">
+			<soap:operation
+				soapAction="http://sap.com/xi/WebService/soap1.1"
+				xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" />
+			<wsdl:input>
+				<soap:body use="literal"
+					xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"
+					xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="Aplicar_Pago">
+			<soap:operation
+				soapAction="http://sap.com/xi/WebService/soap1.1"
+				xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" />
+			<wsdl:input>
+				<soap:body use="literal"
+					xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"
+					xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="Anular_Pago">
+			<soap:operation
+				soapAction="http://sap.com/xi/WebService/soap1.1"
+				xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" />
+			<wsdl:input>
+				<soap:body use="literal"
+					xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"
+					xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" />
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="Aplicar_PagoService">
+		<wsdl:port name="HTTP_Port" binding="p1:Aplicar_PagoBinding">
+			<soap:address
+				location="http://10.200.132.2:8319/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=BS_COLECTORES_QAS&amp;receiverParty=&amp;receiverService=&amp;interface=Aplicar_Pago&amp;interfaceNamespace=urn%3Adelsur.sv%3ACOLECTORES%3AERP%3APagoLinea"
+				xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" />
+		</wsdl:port>
+		<wsdl:port name="HTTPS_Port"
+			binding="p1:Aplicar_PagoBinding">
+			<soap:address
+				location="https://srvpoqa.delsur.com.sv:50001/XISOAPAdapter/MessageServlet?senderParty=&amp;senderService=BS_COLECTORES_QAS&amp;receiverParty=&amp;receiverService=&amp;interface=Aplicar_Pago&amp;interfaceNamespace=urn%3Adelsur.sv%3ACOLECTORES%3AERP%3APagoLinea"
+				xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" />
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

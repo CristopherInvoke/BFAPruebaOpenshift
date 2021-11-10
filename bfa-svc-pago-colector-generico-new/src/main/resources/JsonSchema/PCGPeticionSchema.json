@@ -1,0 +1,63 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"description": "Peticion Colector Generico",
+	"type": "object",
+	"properties": {
+		"codColector": {
+			"type": "number"
+		},
+		"codTipoDocumento": {
+			"type": "number"
+		},
+		"codOficinaTran": {
+			"type": "number"
+		},
+		"codTran": {
+			"type": "number"
+		},
+		"numDocumentoTran": {
+			"type": "number"
+		},
+		"senSupervisor": {
+			"type": "number"
+		},
+		"valorMovimiento": {
+			"type": "number",
+			"multipleOf": 0.01
+		},
+		"camposFormulario": {
+			"type": "string"
+		},
+		"codTerminal": {
+			"type": "number"
+		},
+		"codCajero": {
+			"type": "string"
+		},
+		"numLote": {
+			"type": "number"
+		},
+		"numCaja": {
+			"type": "number"
+		},
+		"valorCheques": {
+			"type": "number",
+			"multipleOf": 0.01
+		},
+		"valorEfectivo": {
+			"type": ["number", "null"]
+		}
+	},
+	"required": [
+		"codColector",
+		"codTipoDocumento",
+		"codOficinaTran",
+		"codTran",
+		"senSupervisor",
+		"valorMovimiento",
+		"codTerminal",
+		"codCajero",
+		"numLote",
+		"numCaja"
+	]
+}

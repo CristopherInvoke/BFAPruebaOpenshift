@@ -1,0 +1,15 @@
+sv/gob/bfa/entradasvarias/model/EntradasVariasRespuesta.class
+sv/gob/bfa/entradasvarias/model/EntradasVariasPeticion.class
+sv/gob/bfa/entradasvarias/ruta/EntradasVariasRuta.class
+sv/gob/bfa/entradasvarias/model/ReversaEntradasVariasPeticion.class
+sv/gob/bfa/entradasvarias/model/ReversaEntradasVariasRespuesta.class
+sv/gob/bfa/entradasvarias/funcionesinternas/ValidarFondosSubsidioPrimaSeguro.class
+sv/gob/bfa/entradasvarias/ruta/EntradasVariasRuta$3.class
+sv/gob/bfa/entradasvarias/servicio/EntradasVariasServicio.class
+sv/gob/bfa/entradasvarias/servicio/ReversaEntradasVariasServicio.class
+sv/gob/bfa/entradasvarias/funcionesinternas/ReversaInscripcionRenovacionProduceSeguro.class
+sv/gob/bfa/middleware/PSConsumerApplication.class
+sv/gob/bfa/entradasvarias/ruta/EntradasVariasRuta$1.class
+sv/gob/bfa/middleware/processors/ProcessorJMSAttributes.class
+sv/gob/bfa/entradasvarias/funcionesinternas/RegistrarInscripcionRenovacionProduceSeguro.class
+sv/gob/bfa/entradasvarias/ruta/EntradasVariasRuta$2.class

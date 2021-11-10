@@ -1,0 +1,11 @@
+/home/cristopher/eclipse-workspace/bfa-svc-pago-mh/src/main/java/sv/gob/bfa/pago/mh/model/PagoMhPeticion.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-mh/src/main/java/sv/gob/bfa/pago/mh/model/PagoMhRespuesta.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-mh/src/main/java/sv/gob/bfa/pago/mh/ruta/ConfigRuta.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-mh/src/main/java/sv/gob/bfa/pago/mh/servicio/ConsultaMhServicio.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-mh/src/main/java/sv/gob/bfa/pago/mh/dto/ConectorMhPagoPeticion.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-mh/src/main/java/sv/gob/bfa/middleware/processors/ProcessorJMSAttributes.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-mh/src/main/java/sv/gob/bfa/pago/mh/dto/ConectorMhPagoRespuesta.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-mh/src/main/java/sv/gob/bfa/pago/mh/ruta/PagoMhRuta.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-mh/src/main/java/sv/gob/bfa/pago/mh/servicio/PagoMhServicio.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-mh/src/main/java/sv/gob/bfa/middleware/PSConsumerApplication.java
+/home/cristopher/eclipse-workspace/bfa-svc-pago-mh/src/main/java/sv/gob/bfa/pago/mh/servicio/LogColector.java

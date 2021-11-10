@@ -1,0 +1,61 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"description": "Peticion Reversa Entradas Varias",
+	"type": "object",
+	"properties": {
+		"codTran": {
+			"type": "number"
+		},
+		"numDocumentoTran": {
+			"type": "number"
+		},
+		"codCausal": {
+			"type": "number"
+		},
+		"cuentaTransaccion": {
+			"type": "string"
+		},
+		"valorEfectivo": {
+			"type": "number"
+		},
+		"tipDocumentoPersona": {
+			"type": ["number", "null"]
+		},
+		"numDocumentoPersona": {
+			"type": ["string", "null"]
+		},
+		"nombrePersona": {
+			"type": ["string", "null"]
+		},
+		"codOficinaTran": {
+			"type": "number"
+		},
+		"codTerminal": {
+			"type": "number"
+		},
+		"codCajero": {
+			"type": "string"
+		},
+		"numCaja": {
+			"type": "number"
+		},
+		"codSubCausal": {
+			"type": ["number", "null"]
+		},
+		"numReversa": {
+			"type": "number"
+		}
+	},
+	"required": [
+		"codTran",
+		"numDocumentoTran",
+		"codCausal",
+		"cuentaTransaccion",
+		"valorEfectivo",
+		"codOficinaTran",
+		"codTerminal",
+		"codCajero",
+		"numCaja",
+		"numReversa"
+	]
+}

@@ -1,0 +1,9 @@
+/home/cristopher/eclipse-workspace/bfa-svc-pagaduria-generico-new/src/main/java/sv/gob/bfa/pagaduriagenerico/model/PagaduriaGenericoRespuesta.java
+/home/cristopher/eclipse-workspace/bfa-svc-pagaduria-generico-new/src/main/java/sv/gob/bfa/pagaduriagenerico/servicio/PagaduriaGenericoServicio.java
+/home/cristopher/eclipse-workspace/bfa-svc-pagaduria-generico-new/src/main/java/sv/gob/bfa/pagaduriagenerico/model/ReversaPagaduriaGenericoRespuesta.java
+/home/cristopher/eclipse-workspace/bfa-svc-pagaduria-generico-new/src/main/java/sv/gob/bfa/pagaduriagenerico/ruta/PagaduriaGenericoRuta.java
+/home/cristopher/eclipse-workspace/bfa-svc-pagaduria-generico-new/src/main/java/sv/gob/bfa/pagaduriagenerico/model/PagaduriaGenericoPeticion.java
+/home/cristopher/eclipse-workspace/bfa-svc-pagaduria-generico-new/src/main/java/sv/gob/bfa/pagaduriagenerico/model/ReversaPagaduriaGenericoPeticion.java
+/home/cristopher/eclipse-workspace/bfa-svc-pagaduria-generico-new/src/main/java/sv/gob/bfa/pagaduriagenerico/servicio/ReversaPagaduriaGenericoServicio.java
+/home/cristopher/eclipse-workspace/bfa-svc-pagaduria-generico-new/src/main/java/sv/gob/bfa/middleware/processors/ProcessorJMSAttributes.java
+/home/cristopher/eclipse-workspace/bfa-svc-pagaduria-generico-new/src/main/java/sv/gob/bfa/middleware/PSConsumerApplication.java
